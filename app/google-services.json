@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "589496861096",
+    "firebase_url": "https://tabsdata-e494e.firebaseio.com",
+    "project_id": "tabsdata-e494e",
+    "storage_bucket": "tabsdata-e494e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589496861096:android:15f3484bf621416e",
+        "android_client_info": {
+          "package_name": "touchtop.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589496861096-0mabmi72ri9mog23m61vmn4avbeko0rk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "touchtop.notification",
+            "certificate_hash": "e43c03bf04bc1da75d3f6e2eb69fc5b3ba0f59f0"
+          }
+        },
+        {
+          "client_id": "589496861096-7mde7o5bloeg3951icjr6s6m1vfus21j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDioJIxxCaJX9fVauOdIcFdcXPVBzIuD_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589496861096-7mde7o5bloeg3951icjr6s6m1vfus21j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
