@@ -7,16 +7,16 @@
     <Button
         android:id="@+id/checkGmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="193dp"
         android:text="Gmail" />
 
     <Button
         android:id="@+id/checkFB"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="185dp"
+        android:layout_alignParentBottom="true"
         android:elevation="10dp"
-        android:text="facebook"
-        android:layout_alignParentBottom="true"/>
+        android:text="facebook" />
 
     <ScrollView
         android:layout_width="match_parent"
