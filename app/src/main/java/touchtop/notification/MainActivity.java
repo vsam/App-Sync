@@ -125,9 +125,9 @@ public class MainActivity extends Activity {
                 //com.google.android.gm
                 if (pack.equals("com.google.android.gm")) {
                     //Toast.makeText(getApplicationContext(), "You got an email", Toast.LENGTH_SHORT).show();
-                    Button temp = (Button) findViewById(R.id.checkGmail);
-                    temp.setBackgroundColor(Color.RED);
-                    temp.setTag("1");
+                    Button activegm = (Button) findViewById(R.id.checkGmail);
+                    activegm.setBackgroundColor(Color.RED);
+                    activegm.setTag("1");
 
                     //mDatabase = FirebaseDatabase.getInstance().getReference();
                     //mDatabase.child("Gmail").push().setValue(pack);
@@ -136,9 +136,9 @@ public class MainActivity extends Activity {
 
                 if (pack.equals("com.facebook.katana")) {
                     //Toast.makeText(getApplicationContext(), "You got a FB notification", Toast.LENGTH_SHORT).show();
-                    Button temp = (Button) findViewById(R.id.checkFB);
-                    temp.setBackgroundColor(Color.BLUE);
-                    temp.setTag("1");
+                    Button activefb = (Button) findViewById(R.id.checkFB);
+                    activefb.setBackgroundColor(Color.BLUE);
+                    activefb.setTag("1");
                     //mDatabase = FirebaseDatabase.getInstance().getReference();
                     //mDatabase.child("Facebook").push().setValue(pack);
                 }
